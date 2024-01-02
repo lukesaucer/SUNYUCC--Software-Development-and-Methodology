@@ -1,0 +1,226 @@
+<style>
+
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#canvas {
+  background-color: #f7dbd7;
+  color: black;
+}
+
+body {
+  font-family: Arial, Verdana, Tahoma, Helvetica;
+  background-color: #f7dbd7;
+}
+
+#logo {
+  position: absolute;
+  bottom: 0;
+  width: 10%;
+  height: 3rem;
+  background-color: #faeacb;
+  padding: 0px;
+}
+
+#mainNav {
+  background-color: #faeacb;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #faeacb;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #9cc0e7;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f7dbd7;
+  color: black;
+}
+
+#login {
+  width: 360px;
+  margin: 0 auto;
+}
+
+#login div {
+  /*margin-left: 10%;
+  margin-right: 10%;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#login .user,
+#login .pass {
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-repeat: no-repeat;
+  position: left center;
+  overflow: hidden;
+}
+
+#login input {
+  height: 30px;
+}
+
+#login .user input,
+#login .pass input {
+  background-color: #e4e4e4;
+  border-radius: 0px 0px 0px 0px;
+  border: none;
+  color: #000;
+  font-size: 1.1em;
+  padding-left: 2px;
+  width: 97%;
+}
+
+#login .send {
+  border-radius: 3px;
+}
+
+#login .send input {
+  width: 100%;
+  border-radius: 0px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  border: 0;
+  background-color: #9dc1e8;
+  text-shadow: 0px 0px 0px #000;
+  box-shadow: 3px 3px 5px #000;
+}
+
+#formBox {
+  width: 350px;
+  height: 375px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 75px;
+  background-color: white;
+  align-items: center;
+  box-shadow: 10px 5px 5px grey;
+}
+
+#email {
+  width: 60%;
+  border: 2px solid #e4e4e4;
+  border-radius: 8px;
+  border-color: #e4e4e4;
+  background-color: #e4e4e4;
+}
+
+#password {
+  width: 60%;
+  border: 2px solid #e4e4e4;
+  border-radius: 8px;
+  border-color: #e4e4e4;
+  background-color: #e4e4e4;
+}
+
+#loginButton {
+  width: 60%;
+  background-color: #04047d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#loginButton:hover {
+  background-color: #04467d;
+}
+
+#forgotPasswordButton {
+  width: 60%;
+  background-color: #04047d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+#forgotPasswordButton:hover {
+  background-color: #04467d;
+}
+
+#createAccountButton, .createAccountButton {
+  width: 60%;
+  background-color: #04047d;
+  color: #f2f2f2;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 70px;
+  font-style: normal;
+}
+
+#createAccountButton:hover {
+  background-color: #04467d;
+  color: #f2f2f2;
+}
+
+.createAccountButton:hover {
+  background-color: #04467d;
+  color: #f2f2f2;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  /* Footer height */
+  background-color: #faeacb;
+  text-align: center;
+  padding: 5px;
+}
+
+    </style>
